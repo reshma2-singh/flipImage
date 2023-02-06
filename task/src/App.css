@@ -1,0 +1,50 @@
+.gallery{
+ float: left;
+}
+.box{
+  background-color: lightgray;
+  height: 300px;
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 50px;
+  box-shadow: 10px 10px 8px #888888;
+}
+.scrn{
+  display: flex;
+  position: relative;
+  
+  border-bottom: 1px solid gray;
+}
+.imgg{
+  width: 150px;
+  height: 150px;
+}
+.name{
+  position: absolute;
+  left:200px;
+top: 20px
+}
+.status{
+  position: absolute;
+    left: 200px;
+    top:50px
+}
+.btn3{
+  position: absolute;
+left: 200px;
+  top: 90px
+}
+.hom{
+  
+  font-weight: 800;
+  color: white;
+}
+.hom>h5{
+text-decoration: none;
+}
+.lik{
+font-weight: 800;
+  color: white;
+  margin-left: 10px;
+}
+
